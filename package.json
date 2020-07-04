@@ -2,12 +2,12 @@
   "name": "smart-photoframe",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node .",
-    "debug": "ts-node . --debug",
-    "build": "tsc index.ts",
-    "watch": "nodemon . --debug"
+    "start": "ts-node src",
+    "debug": "ts-node src --debug",
+    "build": "tsc",
+    "watch": "nodemon dist"
   },
   "keywords": [],
   "author": "Ruslan Garifllin",
