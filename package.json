@@ -1,0 +1,26 @@
+{
+  "name": "smart-photoframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node .",
+    "debug": "ts-node . --debug",
+    "build": "tsc index.ts",
+    "watch": "nodemon . --debug"
+  },
+  "keywords": [],
+  "author": "Ruslan Garifllin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "openweathermap-ts": "^1.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
