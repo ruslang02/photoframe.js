@@ -13,7 +13,7 @@
   "author": "Ruslan Garifllin",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "canvas": "^2.6.1",
     "openweathermap-ts": "^1.2.6"
   },
